@@ -89,7 +89,7 @@
    "type": "Link"
   },
   {
-   "dependencies": "Asset Maintenance Team",
+   "dependencies": "IT Asset Maintenance Team",
    "hidden": 0,
    "is_query_report": 0,
    "label": "IT Asset Maintenance",
@@ -100,7 +100,7 @@
    "type": "Link"
   },
   {
-   "dependencies": "Asset Maintenance",
+   "dependencies": "IT Asset Maintenance",
    "hidden": 0,
    "is_query_report": 0,
    "label": "IT Asset Maintenance Log",
@@ -111,7 +111,7 @@
    "type": "Link"
   },
   {
-   "dependencies": "Asset",
+   "dependencies": "IT Asset",
    "hidden": 0,
    "is_query_report": 0,
    "label": "IT Asset Value Adjustment",
@@ -122,7 +122,7 @@
    "type": "Link"
   },
   {
-   "dependencies": "Asset",
+   "dependencies": "IT Asset",
    "hidden": 0,
    "is_query_report": 0,
    "label": "IT Asset Repair",
@@ -133,7 +133,7 @@
    "type": "Link"
   },
   {
-   "dependencies": "Asset",
+   "dependencies": "IT Asset",
    "hidden": 0,
    "is_query_report": 0,
    "label": "IT Asset Capitalization",
@@ -153,7 +153,7 @@
    "type": "Card Break"
   },
   {
-   "dependencies": "Asset",
+   "dependencies": "IT Asset",
    "hidden": 0,
    "is_query_report": 1,
    "label": "IT Asset Depreciation Ledger",
@@ -164,7 +164,7 @@
    "type": "Link"
   },
   {
-   "dependencies": "Asset",
+   "dependencies": "IT Asset",
    "hidden": 0,
    "is_query_report": 1,
    "label": "Asset Depreciations and Balances",
@@ -175,7 +175,7 @@
    "type": "Link"
   },
   {
-   "dependencies": "Asset Maintenance",
+   "dependencies": "IT Asset Maintenance",
    "hidden": 0,
    "is_query_report": 0,
    "label": "IT Asset Maintenance",
@@ -186,7 +186,7 @@
    "type": "Link"
   }
  ],
- "modified": "2024-11-10 23:53:32.207044",
+ "modified": "2024-11-11 19:26:22.314244",
  "modified_by": "Administrator",
  "module": "IT",
  "name": "IT",

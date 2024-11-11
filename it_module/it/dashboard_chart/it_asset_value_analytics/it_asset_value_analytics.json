@@ -17,7 +17,7 @@
  "name": "IT Asset Value Analytics",
  "number_of_groups": 0,
  "owner": "Administrator",
- "report_name": "Fixed Asset Register",
+ "report_name": "IT Fixed Asset Register",
  "time_interval": "Yearly",
  "timeseries": 0,
  "timespan": "Last Year",

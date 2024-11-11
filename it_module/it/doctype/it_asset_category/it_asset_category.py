@@ -99,23 +99,23 @@ class ITAssetCategory(Document):
 
 
 def get_asset_category_account(
-	fieldname, item=None, asset=None, account=None, it_asset_category=None, company=None
+	fieldname, item=None, asset=None, account=None, asset_category=None, company=None
 ):
 	if item and frappe.db.get_value("Item", item, "is_fixed_asset"):
-		it_asset_category = frappe.db.get_value("Item", item, ["it_asset_category"])
+		asset_category = frappe.db.get_value("Item", item, ["asset_category"])
 
-	elif not it_asset_category or not company:
+	elif not asset_category or not company:
 		if account:
 			if frappe.db.get_value("Account", account, "account_type") != "Fixed Asset":
 				account = None
 
 		if not account:
 			asset_details = frappe.db.get_value("IT Asset", asset, ["asset_category", "company"])
-			it_asset_category, company = asset_details or [None, None]
+			asset_category, company = asset_details or [None, None]
 
 	account = frappe.db.get_value(
 		"IT Asset Category Account",
-		filters={"parent": it_asset_category, "company_name": company},
+		filters={"parent": asset_category, "company_name": company},
 		fieldname=fieldname,
 	)
 
