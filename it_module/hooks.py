@@ -127,23 +127,23 @@ app_license = "MIT"
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
-# 	"all": [
-# 		"it_module.tasks.all"
-# 	],
-# 	"daily": [
-# 		"it_module.tasks.daily"
-# 	],
-# 	"hourly": [
-# 		"it_module.tasks.hourly"
-# 	],
-# 	"weekly": [
-# 		"it_module.tasks.weekly"
-# 	],
-# 	"monthly": [
-# 		"it_module.tasks.monthly"
-# 	],
-# }
+scheduler_events = {
+	# "all": [
+	# 	"it_module.tasks.all"
+	# ],
+	# "daily": [
+	# 	"it_module.tasks.daily"
+	# ],
+	# "hourly": [
+	# 	"it_module.tasks.hourly"
+	# ],
+	# "weekly": [
+	# 	"it_module.tasks.weekly"
+	# ],
+	"monthly": [	
+		"it_module.it.doctype.it_employees.it_employees.create_by_scheduler",
+	],
+}
 
 # Testing
 # -------

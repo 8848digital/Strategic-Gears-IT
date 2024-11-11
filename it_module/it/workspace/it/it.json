@@ -1,0 +1,232 @@
+{
+ "charts": [
+  {
+   "chart_name": "IT Asset Value Analytics",
+   "label": "IT Asset Value Analytics"
+  }
+ ],
+ "content": "[{\"id\":\"www2eJzTdQ\",\"type\":\"onboarding\",\"data\":{\"onboarding_name\":\"IT\",\"col\":12}},{\"id\":\"OVlz9glhju\",\"type\":\"chart\",\"data\":{\"chart_name\":\"IT Asset Value Analytics\",\"col\":12}},{\"id\":\"XLDbCWX0Um\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"RUdUyD2R_B\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Your Shortcuts</b></span>\",\"col\":12}},{\"id\":\"NhNqD6TjAy\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"IT Asset\",\"col\":3}},{\"id\":\"6I1GxeDsj3\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"IT Asset Category\",\"col\":3}},{\"id\":\"inaYND6jCz\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"IT Fixed Asset Register\",\"col\":3}},{\"id\":\"X3fXF8EDJ9\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Dashboard\",\"col\":3}},{\"id\":\"I8baDu2Ju0\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"AgZTJmTo3X\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports &amp; Masters</b></span>\",\"col\":12}},{\"id\":\"37TK_Z8nWQ\",\"type\":\"card\",\"data\":{\"card_name\":\"Assets\",\"col\":4}},{\"id\":\"OpmDr-Xref\",\"type\":\"card\",\"data\":{\"card_name\":\"Maintenance\",\"col\":4}},{\"id\":\"GPOxYsixIH\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}}]",
+ "creation": "2020-03-02 15:43:27.634865",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "assets",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "IT",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Assets",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "IT Asset",
+   "link_count": 0,
+   "link_to": "IT Asset",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "IT Location",
+   "link_count": 0,
+   "link_to": "IT Location",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "IT Asset Category",
+   "link_count": 0,
+   "link_to": "IT Asset Category",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "IT Asset Movement",
+   "link_count": 0,
+   "link_to": "IT Asset Movement",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Maintenance",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "IT Asset Maintenance Team",
+   "link_count": 0,
+   "link_to": "IT Asset Maintenance Team",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "dependencies": "Asset Maintenance Team",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "IT Asset Maintenance",
+   "link_count": 0,
+   "link_to": "IT Asset Maintenance",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "dependencies": "Asset Maintenance",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "IT Asset Maintenance Log",
+   "link_count": 0,
+   "link_to": "IT Asset Maintenance Log",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "Asset",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "IT Asset Value Adjustment",
+   "link_count": 0,
+   "link_to": "IT Asset Value Adjustment",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "Asset",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "IT Asset Repair",
+   "link_count": 0,
+   "link_to": "IT Asset Repair",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "Asset",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "IT Asset Capitalization",
+   "link_count": 0,
+   "link_to": "IT Asset Capitalization",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reports",
+   "link_count": 3,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "Asset",
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "IT Asset Depreciation Ledger",
+   "link_count": 0,
+   "link_to": "IT Asset Depreciation Ledger",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "Asset",
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Asset Depreciations and Balances",
+   "link_count": 0,
+   "link_to": "Asset Depreciations and Balances",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "Asset Maintenance",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "IT Asset Maintenance",
+   "link_count": 0,
+   "link_to": "IT Asset Maintenance",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-11-10 23:53:32.207044",
+ "modified_by": "Administrator",
+ "module": "IT",
+ "name": "IT",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "restrict_to_domain": "",
+ "roles": [],
+ "sequence_id": 4.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "IT Asset Category",
+   "link_to": "IT Asset Category",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "label": "Dashboard",
+   "link_to": "IT Asset",
+   "type": "Dashboard"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "IT Fixed Asset Register",
+   "link_to": "IT Fixed Asset Register",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "IT Asset",
+   "link_to": "IT Asset",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "IT"
+}

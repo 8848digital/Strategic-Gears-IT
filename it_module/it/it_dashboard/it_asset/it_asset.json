@@ -1,0 +1,39 @@
+{
+ "cards": [
+  {
+   "card": "IT Total Assets"
+  },
+  {
+   "card": "IT New Assets (This Year)"
+  },
+  {
+   "card": "IT Asset Value"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "IT Asset Value Analytics",
+   "width": "Full"
+  },
+  {
+   "chart": "IT Category-wise Asset Value",
+   "width": "Half"
+  },
+  {
+   "chart": "IT Location-wise Asset Value",
+   "width": "Half"
+  }
+ ],
+ "creation": "2024-11-08 18:57:27.294383",
+ "dashboard_name": "IT Asset",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2024-11-08 18:58:31.807124",
+ "modified_by": "Administrator",
+ "module": "IT",
+ "name": "IT Asset",
+ "owner": "Administrator"
+}

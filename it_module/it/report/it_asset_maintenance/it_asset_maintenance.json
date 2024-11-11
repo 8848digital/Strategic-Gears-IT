@@ -1,0 +1,27 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2017-10-24 13:12:39.946874",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{\"add_total_row\": 0, \"sort_by\": \"IT Asset Maintenance.modified\", \"add_totals_row\": 0, \"sort_order\": \"desc\", \"sort_by_next\": null, \"filters\": [], \"sort_order_next\": \"desc\", \"columns\": [[\"name\", \"IT Asset Maintenance\"], [\"asset_name\", \"IT Asset Maintenance\"], [\"item_code\", \"IT Asset Maintenance\"], [\"maintenance_type\", \"IT Asset Maintenance Task\"], [\"maintenance_task\", \"IT Asset Maintenance Task\"], [\"description\", \"IT Asset Maintenance Task\"], [\"assign_to_name\", \"IT Asset Maintenance Task\"], [\"maintenance_status\", \"IT Asset Maintenance Task\"], [\"next_due_date\", \"IT Asset Maintenance Task\"], [\"last_completion_date\", \"IT Asset Maintenance Task\"]]}",
+ "modified": "2024-11-08 19:22:01.714855",
+ "modified_by": "Administrator",
+ "module": "IT",
+ "name": "IT Asset Maintenance",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "IT Asset Maintenance",
+ "report_name": "IT Asset Maintenance",
+ "report_type": "Report Builder",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ]
+}

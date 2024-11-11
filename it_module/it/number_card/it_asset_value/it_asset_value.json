@@ -1,0 +1,23 @@
+{
+ "aggregate_function_based_on": "value_after_depreciation",
+ "creation": "2020-07-14 18:23:53.302457",
+ "docstatus": 0,
+ "doctype": "Number Card",
+ "document_type": "IT Asset",
+ "dynamic_filters_json": "[]",
+ "filters_json": "[]",
+ "function": "Sum",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "label": "IT Asset Value",
+ "modified": "2024-11-08 18:55:21.493020",
+ "modified_by": "Administrator",
+ "module": "IT",
+ "name": "IT Asset Value",
+ "owner": "Administrator",
+ "parent_document_type": "",
+ "show_percentage_stats": 1,
+ "stats_time_interval": "Monthly",
+ "type": "Document Type"
+}
