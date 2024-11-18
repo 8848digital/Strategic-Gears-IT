@@ -5,7 +5,7 @@
    "label": "IT Asset Value Analytics"
   }
  ],
- "content": "[{\"id\":\"www2eJzTdQ\",\"type\":\"onboarding\",\"data\":{\"onboarding_name\":\"IT\",\"col\":12}},{\"id\":\"OVlz9glhju\",\"type\":\"chart\",\"data\":{\"chart_name\":\"IT Asset Value Analytics\",\"col\":12}},{\"id\":\"XLDbCWX0Um\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"RUdUyD2R_B\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Your Shortcuts</b></span>\",\"col\":12}},{\"id\":\"NhNqD6TjAy\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"IT Asset\",\"col\":3}},{\"id\":\"6I1GxeDsj3\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"IT Asset Category\",\"col\":3}},{\"id\":\"inaYND6jCz\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"IT Fixed Asset Register\",\"col\":3}},{\"id\":\"X3fXF8EDJ9\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Dashboard\",\"col\":3}},{\"id\":\"I8baDu2Ju0\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"AgZTJmTo3X\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports &amp; Masters</b></span>\",\"col\":12}},{\"id\":\"37TK_Z8nWQ\",\"type\":\"card\",\"data\":{\"card_name\":\"Assets\",\"col\":4}},{\"id\":\"OpmDr-Xref\",\"type\":\"card\",\"data\":{\"card_name\":\"Maintenance\",\"col\":4}},{\"id\":\"GPOxYsixIH\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}}]",
+ "content": "[{\"id\":\"www2eJzTdQ\",\"type\":\"onboarding\",\"data\":{\"onboarding_name\":\"IT\",\"col\":12}},{\"id\":\"OVlz9glhju\",\"type\":\"chart\",\"data\":{\"chart_name\":\"IT Asset Value Analytics\",\"col\":12}},{\"id\":\"XLDbCWX0Um\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"RUdUyD2R_B\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Your Shortcuts</b></span>\",\"col\":12}},{\"id\":\"NhNqD6TjAy\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"IT Asset\",\"col\":3}},{\"id\":\"6I1GxeDsj3\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"IT Asset Category\",\"col\":3}},{\"id\":\"X3fXF8EDJ9\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Dashboard\",\"col\":3}},{\"id\":\"I8baDu2Ju0\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"AgZTJmTo3X\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports &amp; Masters</b></span>\",\"col\":12}},{\"id\":\"37TK_Z8nWQ\",\"type\":\"card\",\"data\":{\"card_name\":\"Assets\",\"col\":4}},{\"id\":\"OpmDr-Xref\",\"type\":\"card\",\"data\":{\"card_name\":\"Maintenance\",\"col\":4}},{\"id\":\"GPOxYsixIH\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}}]",
  "creation": "2020-03-02 15:43:27.634865",
  "custom_blocks": [],
  "docstatus": 0,
@@ -89,7 +89,7 @@
    "type": "Link"
   },
   {
-   "dependencies": "IT Asset Maintenance Team",
+   "dependencies": "Asset Maintenance Team",
    "hidden": 0,
    "is_query_report": 0,
    "label": "IT Asset Maintenance",
@@ -100,7 +100,7 @@
    "type": "Link"
   },
   {
-   "dependencies": "IT Asset Maintenance",
+   "dependencies": "Asset Maintenance",
    "hidden": 0,
    "is_query_report": 0,
    "label": "IT Asset Maintenance Log",
@@ -111,7 +111,7 @@
    "type": "Link"
   },
   {
-   "dependencies": "IT Asset",
+   "dependencies": "Asset",
    "hidden": 0,
    "is_query_report": 0,
    "label": "IT Asset Value Adjustment",
@@ -122,7 +122,7 @@
    "type": "Link"
   },
   {
-   "dependencies": "IT Asset",
+   "dependencies": "Asset",
    "hidden": 0,
    "is_query_report": 0,
    "label": "IT Asset Repair",
@@ -133,7 +133,7 @@
    "type": "Link"
   },
   {
-   "dependencies": "IT Asset",
+   "dependencies": "Asset",
    "hidden": 0,
    "is_query_report": 0,
    "label": "IT Asset Capitalization",
@@ -153,7 +153,7 @@
    "type": "Card Break"
   },
   {
-   "dependencies": "IT Asset",
+   "dependencies": "Asset",
    "hidden": 0,
    "is_query_report": 1,
    "label": "IT Asset Depreciation Ledger",
@@ -164,7 +164,7 @@
    "type": "Link"
   },
   {
-   "dependencies": "IT Asset",
+   "dependencies": "Asset",
    "hidden": 0,
    "is_query_report": 1,
    "label": "Asset Depreciations and Balances",
@@ -186,7 +186,7 @@
    "type": "Link"
   }
  ],
- "modified": "2024-11-11 19:26:22.314244",
+ "modified": "2024-11-13 10:47:56.742873",
  "modified_by": "Administrator",
  "module": "IT",
  "name": "IT",
@@ -211,13 +211,6 @@
    "label": "Dashboard",
    "link_to": "IT Asset",
    "type": "Dashboard"
-  },
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "IT Fixed Asset Register",
-   "link_to": "IT Fixed Asset Register",
-   "type": "Report"
   },
   {
    "color": "Grey",

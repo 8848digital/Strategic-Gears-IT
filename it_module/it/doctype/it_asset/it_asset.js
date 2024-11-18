@@ -207,35 +207,35 @@ frappe.ui.form.on("IT Asset", {
 					let mapped_data = r.message;
 				
 					Object.keys(mapped_data).forEach(field => {
-						if (frm.fields_dict[field]) {
+						if (frm.fields_dict[field] && !['schedules', 'finance_books'].includes(field)){
 							frm.set_value(field, mapped_data[field]);
 							frm.refresh_field(field);
 						}
 					});
-					setTimeout(() => {
-					if (mapped_data.finance_books && Array.isArray(mapped_data.finance_books)) {
-						frm.clear_table('finance_books');
+				// 	setTimeout(() => {
+				// 	if (mapped_data.finance_books && Array.isArray(mapped_data.finance_books)) {
+				// 		frm.clear_table('finance_books');
 				
-						mapped_data.finance_books.forEach(row => {
-							delete row.modified;
-							delete row.creation;
-							delete row.modified_by;
-							delete row.value_after_depreciation;
-							row.parent = frm.doc.name
-							let child = frm.add_child('finance_books', row);
-						});
-						mapped_data.schedules.forEach(row => {
-							delete row.modified;
-							delete row.creation;
-							delete row.modified_by;
-							let child = frm.add_child('schedules', row);
-						});
+				// 		mapped_data.finance_books.forEach(row => {
+				// 			delete row.modified;
+				// 			delete row.creation;
+				// 			delete row.modified_by;
+				// 			delete row.value_after_depreciation;
+				// 			row.parent = frm.doc.name
+				// 			let child = frm.add_child('finance_books', row);
+				// 		});
+				// 		mapped_data.schedules.forEach(row => {
+				// 			delete row.modified;
+				// 			delete row.creation;
+				// 			delete row.modified_by;
+				// 			let child = frm.add_child('schedules', row);
+				// 		});
 				
-						setTimeout(() => {
-							frm.refresh_field('finance_books');
-						}, 100);
-					}
-				}, 1000);
+				// 		setTimeout(() => {
+				// 			frm.refresh_field('finance_books');
+				// 		}, 100);
+				// 	}
+				// }, 1000);
 				}
 				
 				
